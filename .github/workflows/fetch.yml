@@ -1,0 +1,66 @@
+name: 메타 데이터 수집
+
+on:
+  schedule:
+    # 매일 한국시간 오전 6시 47분 (UTC 21:47)
+    # 정각(00분)은 깃허브 서버가 붐벼서 지연·누락이 잦아 분을 비켜둠
+    - cron: "47 21 * * *"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "시작일 YYYY-MM-DD (비우면 최근 7일)"
+        required: false
+      until:
+        description: "종료일 YYYY-MM-DD (비우면 어제)"
+        required: false
+
+permissions:
+  contents: write
+
+# 수집이 겹쳐서 돌지 않도록 한 번에 하나씩만 실행
+concurrency:
+  group: meta-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    # 매일 자동 실행(최근 7일)은 몇 분이면 끝남. 6시간씩 붙잡혀 있지 않도록 상한을 둠
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: 메타 인사이트 수집
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_API_VERSION: ${{ vars.META_API_VERSION }}
+          SINCE: ${{ github.event.inputs.since }}
+          UNTIL: ${{ github.event.inputs.until }}
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/fetch_meta.py
+
+      # 수집이 일부 실패해도 그때까지 저장된 데이터는 커밋
+      # 실행 도중 main 에 다른 커밋이 올라와도 충돌 없이 그 위에 data/ 만 얹는다
+      - name: 변경사항 커밋
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --mixed origin/main
+            git add data/
+            if git diff --cached --quiet; then
+              echo "변경 없음"; exit 0
+            fi
+            git commit -q -m "data: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') 메타 데이터 갱신"
+            if git push -q origin HEAD:main; then echo "커밋 완료"; exit 0; fi
+            echo "push 실패, 재시도 ($i)"; sleep 5
+          done
+          exit 1

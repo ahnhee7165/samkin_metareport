@@ -1,0 +1,16 @@
+{
+  "client": "삼진어묵",
+  "accounts": [
+    {
+      "id": "1553717018693747", "name": "삼진어묵 온라인팀", "type": "own",
+      "parse": {
+        "event_from": "adset",
+        "strip": ["삼진어묵_", "전환_"],
+        "segments": [
+          { "name": "프로모션", "match": "프로모션" },
+          { "name": "상시", "match": "상시" }
+        ]
+      }
+    }
+  ]
+}
