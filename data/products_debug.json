@@ -1,0 +1,420 @@
+{
+ "since": "2026-01-01",
+ "until": "2026-11-01",
+ "accounts": {
+  "1553717018693747": {
+   "name": "삼진어묵 온라인팀",
+   "type": "own",
+   "rows": 4678,
+   "campaign_level": {
+    "actions": {
+     "link_click": 397,
+     "post_engagement": 494,
+     "page_engagement": 494,
+     "post_interaction_gross": 61,
+     "post_interaction_net": 64,
+     "post": 17,
+     "post_reaction": 55,
+     "onsite_conversion.post_net_like": 58,
+     "onsite_conversion.post_unlike": 15,
+     "like": 1,
+     "onsite_conversion.post_save": 17,
+     "onsite_conversion.post_net_save": 17,
+     "omni_search": 82,
+     "offsite_search_add_meta_leads": 82,
+     "offsite_search_add_20_s_calls": 82,
+     "offsite_conversion.fb_pixel_search": 82,
+     "add_to_cart": 65,
+     "offsite_conversion.fb_pixel_add_to_cart": 65,
+     "offsite_content_view_add_20_s_calls": 296,
+     "onsite_web_view_content": 296,
+     "onsite_web_add_to_cart": 65,
+     "onsite_web_app_view_content": 296,
+     "view_content": 296,
+     "onsite_web_app_add_to_cart": 65,
+     "offsite_content_view_add_meta_leads": 296,
+     "search": 82,
+     "offsite_add_to_cart_add_20_s_calls": 65,
+     "omni_add_to_cart": 65,
+     "omni_view_content": 296,
+     "offsite_conversion.fb_pixel_view_content": 296,
+     "landing_page_view": 179,
+     "omni_landing_page_view": 179,
+     "web_in_store_purchase": 55,
+     "omni_purchase": 55,
+     "offsite_purchase_add_20_s_calls": 55,
+     "offsite_conversion.fb_pixel_purchase": 55,
+     "onsite_web_app_purchase": 55,
+     "purchase": 55,
+     "web_app_in_store_purchase": 55,
+     "onsite_web_purchase": 55,
+     "video_view": 168,
+     "offsite_conversion.fb_pixel_custom": 4,
+     "comment": 1,
+     "onsite_conversion.post_net_comment": 1,
+     "onsite_conversion.total_messaging_connection": 2,
+     "onsite_conversion.messaging_conversation_started_7d": 1,
+     "onsite_conversion.messaging_user_depth_2_message_send": 1,
+     "onsite_conversion.messaging_user_depth_3_message_send": 1
+    },
+    "action_values": {
+     "onsite_web_app_add_to_cart": 65,
+     "onsite_web_add_to_cart": 65,
+     "offsite_conversion.fb_pixel_view_content": 296,
+     "offsite_conversion.fb_pixel_add_to_cart": 65,
+     "omni_view_content": 296,
+     "add_to_cart": 65,
+     "view_content": 296,
+     "onsite_web_view_content": 296,
+     "onsite_web_app_view_content": 296,
+     "omni_add_to_cart": 65,
+     "onsite_web_app_purchase": 52,
+     "onsite_web_purchase": 52,
+     "purchase": 52,
+     "web_app_in_store_purchase": 52,
+     "offsite_conversion.fb_pixel_purchase": 52,
+     "omni_purchase": 52,
+     "web_in_store_purchase": 52
+    },
+    "catalog_segment_actions": {},
+    "catalog_segment_value": {}
+   },
+   "samples": [
+    {
+     "date_start": "2026-09-02",
+     "product_id": "pkm6jmxhp9, 알찬모듬어묵",
+     "actions": [
+      {
+       "action_type": "omni_search",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_search_add_meta_leads",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_search_add_20_s_calls",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_search",
+       "value": "0"
+      },
+      {
+       "action_type": "add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_content_view_add_20_s_calls",
+       "value": "6"
+      },
+      {
+       "action_type": "onsite_web_view_content",
+       "value": "6"
+      },
+      {
+       "action_type": "onsite_web_add_to_cart",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_web_app_view_content",
+       "value": "6"
+      },
+      {
+       "action_type": "view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_app_add_to_cart",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_content_view_add_meta_leads",
+       "value": "6"
+      },
+      {
+       "action_type": "search",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_add_to_cart_add_20_s_calls",
+       "value": "1"
+      },
+      {
+       "action_type": "omni_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_view_content",
+       "value": "0"
+      }
+     ],
+     "action_values": [
+      {
+       "action_type": "onsite_web_app_add_to_cart",
+       "value": "55000"
+      },
+      {
+       "action_type": "onsite_web_add_to_cart",
+       "value": "55000"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_view_content",
+       "value": "282400"
+      },
+      {
+       "action_type": "onsite_web_app_view_content",
+       "value": "282400"
+      },
+      {
+       "action_type": "omni_add_to_cart",
+       "value": "0"
+      }
+     ],
+     "catalog_segment_actions": null,
+     "catalog_segment_value": null
+    },
+    {
+     "date_start": "2026-09-03",
+     "product_id": "1000001042, 순살바 매운맛",
+     "actions": [
+      {
+       "action_type": "web_in_store_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "omni_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_purchase_add_20_s_calls",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_app_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "web_app_in_store_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_web_purchase",
+       "value": "1"
+      }
+     ],
+     "action_values": [
+      {
+       "action_type": "onsite_web_app_purchase",
+       "value": "35000"
+      },
+      {
+       "action_type": "onsite_web_purchase",
+       "value": "35000"
+      },
+      {
+       "action_type": "purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "web_app_in_store_purchase",
+       "value": "350"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "web_in_store_purchase",
+       "value": "35000"
+      }
+     ],
+     "catalog_segment_actions": null,
+     "catalog_segment_value": null
+    },
+    {
+     "date_start": "2026-09-03",
+     "product_id": "pkm6jmxhp9, 알찬모듬어묵",
+     "actions": [
+      {
+       "action_type": "web_in_store_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "omni_search",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_search_add_meta_leads",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_search_add_20_s_calls",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_search",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_purchase_add_20_s_calls",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_content_view_add_20_s_calls",
+       "value": "5"
+      },
+      {
+       "action_type": "onsite_web_app_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_view_content",
+       "value": "5"
+      },
+      {
+       "action_type": "onsite_web_app_view_content",
+       "value": "5"
+      },
+      {
+       "action_type": "view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "web_app_in_store_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_content_view_add_meta_leads",
+       "value": "5"
+      },
+      {
+       "action_type": "onsite_web_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "search",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_view_content",
+       "value": "0"
+      }
+     ],
+     "action_values": [
+      {
+       "action_type": "onsite_web_app_purchase",
+       "value": "40000"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_purchase",
+       "value": "40000"
+      },
+      {
+       "action_type": "purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "web_app_in_store_purchase",
+       "value": "400"
+      },
+      {
+       "action_type": "onsite_web_view_content",
+       "value": "140000"
+      },
+      {
+       "action_type": "onsite_web_app_view_content",
+       "value": "140000"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "web_in_store_purchase",
+       "value": "40000"
+      }
+     ],
+     "catalog_segment_actions": null,
+     "catalog_segment_value": null
+    }
+   ],
+   "campaign_level_purchases": 546.0,
+   "account_level_rows": 4090,
+   "account_level_purchases": 546.0,
+   "account_level_value": 93869565
+  }
+ }
+}
