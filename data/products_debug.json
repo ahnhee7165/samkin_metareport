@@ -1,78 +1,78 @@
 {
- "since": "2026-11-14",
- "until": "2026-11-20",
+ "since": "2026-11-15",
+ "until": "2026-11-21",
  "accounts": {
   "1553717018693747": {
    "name": "삼진어묵 온라인팀",
    "type": "own",
-   "rows": 129,
+   "rows": 109,
    "campaign_level": {
     "actions": {
-     "web_in_store_purchase": 9,
-     "omni_search": 19,
-     "omni_purchase": 9,
-     "link_click": 30,
-     "offsite_search_add_meta_leads": 19,
-     "offsite_search_add_20_s_calls": 19,
-     "offsite_conversion.fb_pixel_search": 19,
-     "offsite_purchase_add_20_s_calls": 9,
-     "add_to_cart": 13,
-     "offsite_conversion.fb_pixel_purchase": 9,
-     "offsite_conversion.fb_pixel_add_to_cart": 13,
-     "post_reaction": 8,
-     "offsite_content_view_add_20_s_calls": 37,
-     "landing_page_view": 30,
-     "omni_landing_page_view": 30,
-     "post_engagement": 30,
+     "web_in_store_purchase": 8,
+     "omni_search": 16,
+     "omni_purchase": 8,
+     "link_click": 29,
+     "offsite_search_add_meta_leads": 16,
+     "offsite_search_add_20_s_calls": 16,
+     "offsite_conversion.fb_pixel_search": 16,
+     "offsite_purchase_add_20_s_calls": 8,
+     "add_to_cart": 12,
+     "offsite_conversion.fb_pixel_purchase": 8,
+     "offsite_conversion.fb_pixel_add_to_cart": 12,
+     "offsite_content_view_add_20_s_calls": 34,
+     "landing_page_view": 29,
+     "omni_landing_page_view": 29,
+     "post_engagement": 29,
      "post_interaction_gross": 10,
-     "onsite_web_app_purchase": 9,
-     "page_engagement": 30,
-     "purchase": 9,
-     "onsite_web_view_content": 37,
-     "onsite_web_add_to_cart": 13,
+     "onsite_web_app_purchase": 8,
+     "page_engagement": 29,
+     "purchase": 8,
+     "onsite_web_view_content": 34,
+     "onsite_web_add_to_cart": 12,
      "post_interaction_net": 10,
-     "onsite_web_app_view_content": 37,
+     "onsite_web_app_view_content": 34,
      "post": 3,
-     "view_content": 37,
-     "onsite_conversion.post_save": 4,
-     "web_app_in_store_purchase": 9,
-     "onsite_web_app_add_to_cart": 13,
-     "onsite_conversion.post_net_save": 4,
-     "onsite_conversion.post_net_like": 8,
-     "offsite_content_view_add_meta_leads": 37,
-     "onsite_web_purchase": 9,
-     "search": 19,
-     "offsite_add_to_cart_add_20_s_calls": 13,
-     "omni_add_to_cart": 13,
-     "omni_view_content": 37,
-     "offsite_conversion.fb_pixel_view_content": 37,
-     "onsite_conversion.post_unlike": 1
+     "view_content": 34,
+     "onsite_conversion.post_save": 3,
+     "web_app_in_store_purchase": 8,
+     "onsite_web_app_add_to_cart": 12,
+     "onsite_conversion.post_net_save": 3,
+     "offsite_content_view_add_meta_leads": 34,
+     "onsite_web_purchase": 8,
+     "search": 16,
+     "offsite_add_to_cart_add_20_s_calls": 12,
+     "omni_add_to_cart": 12,
+     "omni_view_content": 34,
+     "offsite_conversion.fb_pixel_view_content": 34,
+     "post_reaction": 7,
+     "onsite_conversion.post_unlike": 1,
+     "onsite_conversion.post_net_like": 7
     },
     "action_values": {
-     "onsite_web_app_purchase": 9,
-     "onsite_web_app_add_to_cart": 13,
-     "onsite_web_add_to_cart": 13,
-     "offsite_conversion.fb_pixel_view_content": 37,
-     "offsite_conversion.fb_pixel_add_to_cart": 13,
-     "omni_view_content": 37,
-     "onsite_web_purchase": 9,
-     "add_to_cart": 13,
-     "purchase": 9,
-     "view_content": 37,
-     "web_app_in_store_purchase": 9,
-     "onsite_web_view_content": 37,
-     "onsite_web_app_view_content": 37,
-     "offsite_conversion.fb_pixel_purchase": 9,
-     "omni_add_to_cart": 13,
-     "omni_purchase": 9,
-     "web_in_store_purchase": 9
+     "onsite_web_app_purchase": 8,
+     "onsite_web_app_add_to_cart": 12,
+     "onsite_web_add_to_cart": 12,
+     "offsite_conversion.fb_pixel_view_content": 34,
+     "offsite_conversion.fb_pixel_add_to_cart": 12,
+     "omni_view_content": 34,
+     "onsite_web_purchase": 8,
+     "add_to_cart": 12,
+     "purchase": 8,
+     "view_content": 34,
+     "web_app_in_store_purchase": 8,
+     "onsite_web_view_content": 34,
+     "onsite_web_app_view_content": 34,
+     "offsite_conversion.fb_pixel_purchase": 8,
+     "omni_add_to_cart": 12,
+     "omni_purchase": 8,
+     "web_in_store_purchase": 8
     },
     "catalog_segment_actions": {},
     "catalog_segment_value": {}
    },
    "samples": [
     {
-     "date_start": "2026-11-14",
+     "date_start": "2026-11-15",
      "product_id": "1000001101, 어묵포트 주전자+모듬어묵 세트",
      "actions": [
       {
@@ -89,15 +89,15 @@
       },
       {
        "action_type": "link_click",
-       "value": "123"
+       "value": "129"
       },
       {
        "action_type": "offsite_search_add_meta_leads",
-       "value": "19"
+       "value": "6"
       },
       {
        "action_type": "offsite_search_add_20_s_calls",
-       "value": "19"
+       "value": "6"
       },
       {
        "action_type": "offsite_conversion.fb_pixel_search",
@@ -120,28 +120,24 @@
        "value": "0"
       },
       {
-       "action_type": "post_reaction",
-       "value": "1"
-      },
-      {
        "action_type": "offsite_content_view_add_20_s_calls",
-       "value": "154"
+       "value": "164"
       },
       {
        "action_type": "landing_page_view",
-       "value": "104"
+       "value": "110"
       },
       {
        "action_type": "omni_landing_page_view",
-       "value": "104"
+       "value": "110"
       },
       {
        "action_type": "post_engagement",
-       "value": "128"
+       "value": "131"
       },
       {
        "action_type": "post_interaction_gross",
-       "value": "5"
+       "value": "2"
       },
       {
        "action_type": "onsite_web_app_purchase",
@@ -149,7 +145,7 @@
       },
       {
        "action_type": "page_engagement",
-       "value": "128"
+       "value": "131"
       },
       {
        "action_type": "purchase",
@@ -157,23 +153,23 @@
       },
       {
        "action_type": "onsite_web_view_content",
-       "value": "154"
+       "value": "164"
       },
       {
        "action_type": "onsite_web_add_to_cart",
-       "value": "13"
+       "value": "12"
       },
       {
        "action_type": "post_interaction_net",
-       "value": "5"
+       "value": "2"
       },
       {
        "action_type": "onsite_web_app_view_content",
-       "value": "154"
+       "value": "164"
       },
       {
        "action_type": "post",
-       "value": "3"
+       "value": "1"
       },
       {
        "action_type": "view_content",
@@ -189,19 +185,15 @@
       },
       {
        "action_type": "onsite_web_app_add_to_cart",
-       "value": "13"
+       "value": "12"
       },
       {
        "action_type": "onsite_conversion.post_net_save",
        "value": "1"
       },
       {
-       "action_type": "onsite_conversion.post_net_like",
-       "value": "1"
-      },
-      {
        "action_type": "offsite_content_view_add_meta_leads",
-       "value": "154"
+       "value": "164"
       },
       {
        "action_type": "onsite_web_purchase",
@@ -213,7 +205,7 @@
       },
       {
        "action_type": "offsite_add_to_cart_add_20_s_calls",
-       "value": "13"
+       "value": "12"
       },
       {
        "action_type": "omni_add_to_cart",
@@ -231,15 +223,15 @@
      "action_values": [
       {
        "action_type": "onsite_web_app_purchase",
-       "value": "76950"
+       "value": "99230"
       },
       {
        "action_type": "onsite_web_app_add_to_cart",
-       "value": "266530"
+       "value": "331470"
       },
       {
        "action_type": "onsite_web_add_to_cart",
-       "value": "266530"
+       "value": "331470"
       },
       {
        "action_type": "offsite_conversion.fb_pixel_view_content",
@@ -255,7 +247,7 @@
       },
       {
        "action_type": "onsite_web_purchase",
-       "value": "76950"
+       "value": "99230"
       },
       {
        "action_type": "add_to_cart",
@@ -271,15 +263,15 @@
       },
       {
        "action_type": "web_app_in_store_purchase",
-       "value": "770"
+       "value": "992"
       },
       {
        "action_type": "onsite_web_view_content",
-       "value": "7463314"
+       "value": "8357623"
       },
       {
        "action_type": "onsite_web_app_view_content",
-       "value": "7463314"
+       "value": "8357623"
       },
       {
        "action_type": "offsite_conversion.fb_pixel_purchase",
@@ -295,116 +287,14 @@
       },
       {
        "action_type": "web_in_store_purchase",
-       "value": "76950"
+       "value": "99230"
       }
      ],
      "catalog_segment_actions": null,
      "catalog_segment_value": null
     },
     {
-     "date_start": "2026-11-14",
-     "product_id": "1000000519, 도톰한 사각어묵",
-     "actions": [
-      {
-       "action_type": "add_to_cart",
-       "value": "0"
-      },
-      {
-       "action_type": "offsite_conversion.fb_pixel_add_to_cart",
-       "value": "0"
-      },
-      {
-       "action_type": "offsite_content_view_add_20_s_calls",
-       "value": "1"
-      },
-      {
-       "action_type": "onsite_web_view_content",
-       "value": "1"
-      },
-      {
-       "action_type": "onsite_web_add_to_cart",
-       "value": "1"
-      },
-      {
-       "action_type": "onsite_web_app_view_content",
-       "value": "1"
-      },
-      {
-       "action_type": "view_content",
-       "value": "0"
-      },
-      {
-       "action_type": "onsite_web_app_add_to_cart",
-       "value": "1"
-      },
-      {
-       "action_type": "offsite_content_view_add_meta_leads",
-       "value": "1"
-      },
-      {
-       "action_type": "offsite_add_to_cart_add_20_s_calls",
-       "value": "1"
-      },
-      {
-       "action_type": "omni_add_to_cart",
-       "value": "0"
-      },
-      {
-       "action_type": "omni_view_content",
-       "value": "0"
-      },
-      {
-       "action_type": "offsite_conversion.fb_pixel_view_content",
-       "value": "0"
-      }
-     ],
-     "action_values": [
-      {
-       "action_type": "onsite_web_app_add_to_cart",
-       "value": "53400"
-      },
-      {
-       "action_type": "onsite_web_add_to_cart",
-       "value": "53400"
-      },
-      {
-       "action_type": "offsite_conversion.fb_pixel_view_content",
-       "value": "0"
-      },
-      {
-       "action_type": "offsite_conversion.fb_pixel_add_to_cart",
-       "value": "0"
-      },
-      {
-       "action_type": "omni_view_content",
-       "value": "0"
-      },
-      {
-       "action_type": "add_to_cart",
-       "value": "0"
-      },
-      {
-       "action_type": "view_content",
-       "value": "0"
-      },
-      {
-       "action_type": "onsite_web_view_content",
-       "value": "53400"
-      },
-      {
-       "action_type": "onsite_web_app_view_content",
-       "value": "53400"
-      },
-      {
-       "action_type": "omni_add_to_cart",
-       "value": "0"
-      }
-     ],
-     "catalog_segment_actions": null,
-     "catalog_segment_value": null
-    },
-    {
-     "date_start": "2026-11-14",
+     "date_start": "2026-11-15",
      "product_id": "af2qKGxiTRN, 신선한 야채사각",
      "actions": [
       {
@@ -433,7 +323,7 @@
       },
       {
        "action_type": "offsite_content_view_add_20_s_calls",
-       "value": "7"
+       "value": "4"
       },
       {
        "action_type": "onsite_web_app_purchase",
@@ -445,15 +335,15 @@
       },
       {
        "action_type": "onsite_web_view_content",
-       "value": "7"
+       "value": "4"
       },
       {
        "action_type": "onsite_web_add_to_cart",
-       "value": "5"
+       "value": "1"
       },
       {
        "action_type": "onsite_web_app_view_content",
-       "value": "7"
+       "value": "4"
       },
       {
        "action_type": "view_content",
@@ -465,11 +355,11 @@
       },
       {
        "action_type": "onsite_web_app_add_to_cart",
-       "value": "5"
+       "value": "1"
       },
       {
        "action_type": "offsite_content_view_add_meta_leads",
-       "value": "7"
+       "value": "4"
       },
       {
        "action_type": "onsite_web_purchase",
@@ -477,7 +367,7 @@
       },
       {
        "action_type": "offsite_add_to_cart_add_20_s_calls",
-       "value": "5"
+       "value": "1"
       },
       {
        "action_type": "omni_add_to_cart",
@@ -495,15 +385,15 @@
      "action_values": [
       {
        "action_type": "onsite_web_app_purchase",
-       "value": "37000"
+       "value": "39080"
       },
       {
        "action_type": "onsite_web_app_add_to_cart",
-       "value": "22100"
+       "value": "17480"
       },
       {
        "action_type": "onsite_web_add_to_cart",
-       "value": "22100"
+       "value": "17480"
       },
       {
        "action_type": "offsite_conversion.fb_pixel_view_content",
@@ -519,7 +409,7 @@
       },
       {
        "action_type": "onsite_web_purchase",
-       "value": "37000"
+       "value": "39080"
       },
       {
        "action_type": "add_to_cart",
@@ -535,15 +425,15 @@
       },
       {
        "action_type": "web_app_in_store_purchase",
-       "value": "370"
+       "value": "391"
       },
       {
        "action_type": "onsite_web_view_content",
-       "value": "35160"
+       "value": "36460"
       },
       {
        "action_type": "onsite_web_app_view_content",
-       "value": "35160"
+       "value": "36460"
       },
       {
        "action_type": "offsite_conversion.fb_pixel_purchase",
@@ -559,17 +449,239 @@
       },
       {
        "action_type": "web_in_store_purchase",
-       "value": "37000"
+       "value": "39080"
+      }
+     ],
+     "catalog_segment_actions": null,
+     "catalog_segment_value": null
+    },
+    {
+     "date_start": "2026-11-16",
+     "product_id": "1000001101, 어묵포트 주전자+모듬어묵 세트",
+     "actions": [
+      {
+       "action_type": "web_in_store_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "omni_search",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "link_click",
+       "value": "68"
+      },
+      {
+       "action_type": "offsite_search_add_meta_leads",
+       "value": "6"
+      },
+      {
+       "action_type": "offsite_search_add_20_s_calls",
+       "value": "6"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_search",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_purchase_add_20_s_calls",
+       "value": "1"
+      },
+      {
+       "action_type": "add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_content_view_add_20_s_calls",
+       "value": "100"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "60"
+      },
+      {
+       "action_type": "omni_landing_page_view",
+       "value": "60"
+      },
+      {
+       "action_type": "onsite_conversion.post_unlike",
+       "value": "1"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "70"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_web_app_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "70"
+      },
+      {
+       "action_type": "purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_view_content",
+       "value": "100"
+      },
+      {
+       "action_type": "onsite_web_add_to_cart",
+       "value": "7"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_web_app_view_content",
+       "value": "100"
+      },
+      {
+       "action_type": "view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "web_app_in_store_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_web_app_add_to_cart",
+       "value": "7"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_content_view_add_meta_leads",
+       "value": "100"
+      },
+      {
+       "action_type": "onsite_web_purchase",
+       "value": "1"
+      },
+      {
+       "action_type": "search",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_add_to_cart_add_20_s_calls",
+       "value": "7"
+      },
+      {
+       "action_type": "omni_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_view_content",
+       "value": "0"
+      }
+     ],
+     "action_values": [
+      {
+       "action_type": "onsite_web_app_purchase",
+       "value": "39510"
+      },
+      {
+       "action_type": "onsite_web_app_add_to_cart",
+       "value": "97710"
+      },
+      {
+       "action_type": "onsite_web_add_to_cart",
+       "value": "97710"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "onsite_web_purchase",
+       "value": "39510"
+      },
+      {
+       "action_type": "add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "view_content",
+       "value": "0"
+      },
+      {
+       "action_type": "web_app_in_store_purchase",
+       "value": "395"
+      },
+      {
+       "action_type": "onsite_web_view_content",
+       "value": "4354320"
+      },
+      {
+       "action_type": "onsite_web_app_view_content",
+       "value": "4354320"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_add_to_cart",
+       "value": "0"
+      },
+      {
+       "action_type": "omni_purchase",
+       "value": "0"
+      },
+      {
+       "action_type": "web_in_store_purchase",
+       "value": "39510"
       }
      ],
      "catalog_segment_actions": null,
      "catalog_segment_value": null
     }
    ],
-   "campaign_level_purchases": 17.0,
-   "account_level_rows": 127,
-   "account_level_purchases": 17.0,
-   "account_level_value": 3742490
+   "campaign_level_purchases": 15.0,
+   "account_level_rows": 108,
+   "account_level_purchases": 15.0,
+   "account_level_value": 3678040
   }
  }
 }
